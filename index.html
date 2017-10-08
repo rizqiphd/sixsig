@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+  <html>
+    <head>
+      <!--Import Google Icon Font-->
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <!--Import materialize.css-->
+      <link type="text/css" rel="stylesheet" href="asset/css/materialize.min.css"  media="screen,projection"/>
+      <link type="text/css" rel="stylesheet" href="asset/css/master.css"  media="screen,projection"/>
+
+      <!--Let browser know website is optimized for mobile-->
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    </head>
+
+    <body>
+
+          <!-- START NAVBAR -->
+          <nav>
+             <div class="nav-wrapper black">
+               <a href="#!" class="brand-logo">Rapot Online</a>
+               <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+               <ul class="right hide-on-med-and-down">
+                 <li><a href="sass.html">Dosen</a></li>
+                 <li><a href="badges.html">Mahasiswa</a></li>
+                 <li><a href="collapsible.html">Mata Kuliah</a></li>
+                 <li><a href="mobile.html">Nilai</a></li>
+               </ul>
+               <ul class="side-nav" id="mobile-demo">
+                 <li><a href="sass.html">Dosen</a></li>
+                 <li><a href="badges.html">Mahasiswa</a></li>
+                 <li><a href="collapsible.html">Mata Kuliah</a></li>
+                 <li><a href="mobile.html">Nilai</a></li>
+               </ul>
+             </div>
+           </nav>
+          <!-- END NAVBAR -->
+
+          <!-- START PARALLAX -->
+          <div class="parallax-container" >
+            <div class="parallax"><img src="asset/img/parallax1.jpg"></div>
+
+            <div class="parallax-content center">
+                <h1 class="white-text">Selamat Datang di Aplikasi Rapor Online</h1>
+                <p class="white-text">Disini kita bisa melihat data mahasiswa</p>
+          </div>
+        </div>
+          <!-- END PARALLAX -->
+
+          <!-- START CARD -->
+          <div class="container-fluid full-height center">
+                  <div class="row">
+                 <div class="col l12 s12">
+                   <h3>Kelebihan Pada Aplikasi Ini</h3>
+                 </div>
+               </div>
+                <div class="row">
+                  <div class="col l4 s12">
+                    <div class="card small">
+                      <div class="card-image">
+                        <img src="images/sample-1.jpg">
+                        <span class="card-title">Card Title</span>
+                      </div>
+                      <div class="card-content">
+                        <p>I am a very simple card. I am good at containing small bits of information.
+                        I am convenient because I require little markup to use effectively.</p>
+                      </div>
+                      <div class="card-action">
+                        <a href="#">This is a link</a>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col l4 s12">
+                    <div class="card small">
+                      <div class="card-image">
+                        <img src="images/sample-1.jpg">
+                        <span class="card-title">Card Title</span>
+                      </div>
+                      <div class="card-content">
+                        <p>I am a very simple card. I am good at containing small bits of information.
+                        I am convenient because I require little markup to use effectively.</p>
+                      </div>
+                      <div class="card-action">
+                        <a href="#">This is a link</a>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col l4 s12">
+                    <div class="card small">
+                      <div class="card-image">
+                        <img src="images/sample-1.jpg">
+                        <span class="card-title">Card Title</span>
+                      </div>
+                      <div class="card-content">
+                        <p>I am a very simple card. I am good at containing small bits of information.
+                        I am convenient because I require little markup to use effectively.</p>
+                      </div>
+                      <div class="card-action">
+                        <a href="#">This is a link</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+          <!-- END CARD -->
+
+          <div class="container center">
+       <div class="row">
+         <div class="col l12 s12">
+           <a href="login.html"><button class="btn deep-orange white-text">Join us Here!</button></a>
+         </div>
+       </div>
+     </div>
+     
+          <!-- START FOOTER -->
+          <footer class="page-footer black">
+                  <div class="container">
+                    <div class="row">
+                      <div class="col l6 s12">
+                        <h5 class="white-text">Contact</h5>
+                        <p class="grey-text text-lighten-4">
+                          <li>CEO Lab</li>
+                          <li>WA : 081226269692</li>
+                          <li>Instagram : ceolabindonesia</li>
+                          <li></li>
+                        </p>
+                      </div>
+                      <div class="col l4 offset-l2 s12">
+                        <h5 class="white-text">Links</h5>
+                        <ul>
+                          <li><a class="grey-text text-lighten-3" href="#!">Link 1</a></li>
+                          <li><a class="grey-text text-lighten-3" href="#!">Link 2</a></li>
+                          <li><a class="grey-text text-lighten-3" href="#!">Link 3</a></li>
+                          <li><a class="grey-text text-lighten-3" href="#!">Link 4</a></li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="footer-copyright">
+                    <div class="container">
+                    © 2014 Copyright Text
+                    <a class="grey-text text-lighten-4 right" href="#!">More Links</a>
+                    </div>
+                  </div>
+                </footer>
+          <!-- END FOOTER -->
+      <!-- <h1>Hello World</h1> -->
+      <!--Import jQuery before materialize.js-->
+      <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+      <script type="text/javascript" src="asset/js/materialize.min.js"></script>
+      <script type="text/javascript">
+      $( document ).ready(function(){
+        $(".button-collapse").sideNav();
+        $('.parallax').parallax();
+      }
+      );
+      </script>
+    </body>
+  </html>

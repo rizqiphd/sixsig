@@ -1,0 +1,11 @@
+.parallax-container{
+  min-height: 100%;
+}
+
+.parallax-content{
+  margin-top: 15%;
+}
+
+.full-height{
+  min-height: 100%;
+}
